@@ -1,17 +1,60 @@
-import React from 'react';
-
+import React from "react";
+const styles = {
+  imgStyles: {
+    height: "60%",
+    width: "45%",
+    margin: "15px",
+    border: "grey solid 2px",
+  },
+  containerStyles: {
+  },
+};
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+    <div style={styles.containerStyles}>
+      <h1>Portfolio</h1>
+      <a href="https://peaceful-temple-74699.herokuapp.com/">
+        <img
+          alt="Scalpel"
+          style={styles.imgStyles}
+          src={require("../images/scalpel.png")}
+        />
+      </a>
+      <a href="https://kernbryson.github.io/WorthTheWatch/">
+        <img
+          alt="WorthTheWatch"
+          style={styles.imgStyles}
+          src={require("../images/worththewatch.png")}
+        />
+      </a>
+      <a href="https://kernbryson.github.io/HW6WeatherDashboard/">
+        <img
+          alt="WeatherDash"
+          style={styles.imgStyles}
+          src={require("../images/weatherdash.png")}
+        />
+      </a>
+      <a href="https://kernbryson.github.io/HW3RandomPasswordGenerator/">
+        <img
+          alt="PasswordGen"
+          style={styles.imgStyles}
+          src={require("../images/passwordgen.png")}
+        />
+      </a>
+      <a href="https://powerful-escarpment-98424.herokuapp.com/">
+        <img
+          alt="TechBlog"
+          style={styles.imgStyles}
+          src={require("../images/techblog.png")}
+        />
+      </a>
+      <a href="https://kernbryson.github.io/HW4WebApiCodeQuiz/">
+        <img
+          alt="CodeQuiz"
+          style={styles.imgStyles}
+          src={require("../images/codequiz.png")}
+        />
+      </a>
     </div>
   );
 }

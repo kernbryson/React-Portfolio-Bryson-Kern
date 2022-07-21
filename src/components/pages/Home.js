@@ -1,20 +1,19 @@
 import React from 'react';
-
+const styles = {
+  textStyles: {
+    fontSize: "25px",
+    margin: "15px",
+  },
+};
 export default function Home() {
   return (
     <div>
       <h1>About Me</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      <p style={styles.textStyles}>
+      I am currently a full time student at Georgia Tech who is proficient in HTML, CSS, javascript, SQL, node, JQuery and bootstrap. My
+      hobbies include, backpacking, camping, and gaming. I currently live in
+      Loganville Georgia. After completing my bootcamp I wish to become a
+      web developer.
       </p>
     </div>
   );
