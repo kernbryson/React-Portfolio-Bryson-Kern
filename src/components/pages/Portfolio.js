@@ -7,12 +7,14 @@ const styles = {
     border: "grey solid 2px",
   },
   containerStyles: {
+    backgroundColor: "	#416a59",
+    color:"white"
   },
 };
 export default function About() {
   return (
     <div style={styles.containerStyles}>
-      <h1>Portfolio</h1>
+      <h1 class="p-3">Portfolio</h1>
       <a href="https://peaceful-temple-74699.herokuapp.com/">
         <img
           alt="Scalpel"

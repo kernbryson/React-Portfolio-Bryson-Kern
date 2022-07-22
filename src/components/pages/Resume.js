@@ -4,11 +4,15 @@ const styles = {
     fontSize: "25px",
     margin: "15px",
   },
+  containerStyles: {
+    backgroundColor: "	#416a59",
+    color: "white",
+  },
 };
 export default function Blog() {
   return (
-    <div>
-      <h1>Resume</h1>
+    <div style={styles.containerStyles}>
+      <h1 class="p-3">Resume</h1>
       <p style={styles.textStyles}>
         Hardworking and dedicated student at Georgia Tech. A critical thinker
         that goes above and beyond to create a better working environment.

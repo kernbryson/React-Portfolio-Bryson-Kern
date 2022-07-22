@@ -3,11 +3,15 @@ import React from "react";
 const styles = {
   containerStyles: {
     width: "1000px",
+    height:"60vh",
+    color:"white"
   },
   divStyles: {
     display: "flex",
     justifyContent: "center",
+    backgroundColor: "	#416a59",
   },
+
 };
 
 export default function Contact() {
@@ -18,7 +22,7 @@ export default function Contact() {
           Contact Me
         </h2>
 
-        <p class="text-center w-responsive mx-auto mb-5">
+        <p class="text-center w-responsive mx-auto mb-5 h3">
           Do you have any questions? Please do not hesitate to contact me
           directly. I will come back to you within a matter of hours for your
           inquiry.
@@ -93,7 +97,7 @@ export default function Contact() {
                 </div>
               </div>
               <div class="text-center text-md-left">
-                <button class="btn btn-primary" type="submit">
+                <button class="btn btn-dark" type="submit">
                   Send
                 </button>
               </div>
