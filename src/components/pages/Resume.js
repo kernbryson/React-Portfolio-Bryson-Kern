@@ -7,6 +7,7 @@ const styles = {
   containerStyles: {
     backgroundColor: "	#416a59",
     color: "white",
+    height:"180vh"
   },
 };
 export default function Blog() {
@@ -88,7 +89,7 @@ export default function Blog() {
           <li>Express</li>
         </ul>
         <h4>ACTIVITIES</h4>I am an outdoorsman at heart. I enjoy backpacking and
-        camping as well as riding motorcycles. I am with a Men’s organization
+        camping as well as riding motorcycles. I am with a Men's organization
         called MDI which has allowed me to help other men with problems they
         face which in turn allows me to learn from them. Additionally, MDI has
         granted me leadership opportunities.

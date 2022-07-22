@@ -15,21 +15,21 @@ export default function About() {
   return (
     <div style={styles.containerStyles}>
       <h1 class="p-3">Portfolio</h1>
-      <a href="https://peaceful-temple-74699.herokuapp.com/">
+      <a href="https://peaceful-temple-74699.herokuapp.com/" target="_blank">
         <img
           alt="Scalpel"
           style={styles.imgStyles}
           src={require("../images/scalpel.png")}
         />
       </a>
-      <a href="https://kernbryson.github.io/WorthTheWatch/">
+      <a href="https://kernbryson.github.io/WorthTheWatch/" target="_blank">
         <img
           alt="WorthTheWatch"
           style={styles.imgStyles}
           src={require("../images/worththewatch.png")}
         />
       </a>
-      <a href="https://kernbryson.github.io/HW6WeatherDashboard/">
+      <a target="_blank" href="https://kernbryson.github.io/HW6WeatherDashboard/ ">
         <img
           alt="WeatherDash"
           style={styles.imgStyles}
