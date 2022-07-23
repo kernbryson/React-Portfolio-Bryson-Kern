@@ -39,6 +39,67 @@ const styles = {
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
+      <div class="dropdown drop">
+        <button
+          class="btn  dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"> </i>
+        </button>
+
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              class="dropdown-item"
+              href="#home"
+              onClick={() => handlePageChange("Home")}
+              className={
+                currentPage === "Home" ? "nav-link active" : "nav-link"
+              }
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+              className={
+                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+              }
+            >
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="#resume"
+              onClick={() => handlePageChange("Resume")}
+              className={
+                currentPage === "Resume" ? "nav-link active" : "nav-link"
+              }
+            >
+              Resume
+            </a>
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
       <nav style={styles.sectionStyles}>
         Bryson Kern
         <img
@@ -49,8 +110,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         <span style={styles.spanStyles}>Full Stack Web Developer </span>
       </nav>
 
-      <ul className="nav nav-tabs" style={styles.navStyles}>
-        <li className="nav-item">
+      <ul className="nav nav-tabs " style={styles.navStyles} >
+        <li className="nav-item media">
           <a
             style={styles.linkStyles}
             href="#home"
@@ -62,7 +123,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Home
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item media">
           <a
             style={styles.linkStyles}
             href="#portfolio"
@@ -75,7 +136,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item media">
           <a
             style={styles.linkStyles}
             href="#resume"
@@ -88,7 +149,7 @@ function NavTabs({ currentPage, handlePageChange }) {
             Resume
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item media">
           <a
             style={styles.linkStyles}
             href="#contact"
@@ -103,7 +164,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
       </ul>
     </div>
-    
   );
 }
 

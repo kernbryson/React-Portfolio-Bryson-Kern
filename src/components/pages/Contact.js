@@ -16,19 +16,19 @@ const styles = {
 
 export default function Contact() {
   return (
-    <div style={styles.divStyles}>
+    <div style={styles.divStyles} >
       <section class="mb-4 w-500 " style={styles.containerStyles}>
         <h2 class="h1-responsive font-weight-bold text-center my-4">
           Contact Me
         </h2>
 
-        <p class="text-center w-responsive mx-auto mb-5 h3">
+        <p class="text-center w-responsive mx-auto mb-5 h3 ">
           Do you have any questions? Please do not hesitate to contact me
           directly. I will come back to you within a matter of hours for your
           inquiry.
         </p>
 
-        <div class="row">
+        <div class="row test">
           <div class="col-md-9 mb-md-0 mb-5">
             <form
               id="contact-form"

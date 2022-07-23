@@ -1,0 +1,16 @@
+.drop{
+    float: right;
+    display: none;
+}
+
+
+@media only screen and (max-width: 1700px){
+    .media {
+        display: none;
+}
+}
+@media only screen and (max-width: 1700px){
+    .drop {
+        display: block;
+}
+}
