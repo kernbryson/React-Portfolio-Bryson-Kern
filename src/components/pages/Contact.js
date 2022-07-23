@@ -16,7 +16,7 @@ const styles = {
 
 export default function Contact() {
   return (
-    <div style={styles.divStyles} >
+    <div style={styles.divStyles} class="contactcontainer">
       <section class="mb-4 w-500 " style={styles.containerStyles}>
         <h2 class="h1-responsive font-weight-bold text-center my-4">
           Contact Me
@@ -105,7 +105,7 @@ export default function Contact() {
             </form>
           </div>
 
-          <div class="col-md-3 text-center">
+          <div class="col-md-3 text-center extrainfo">
             <ul class="list-unstyled mb-0">
               <li>
                 <i class="fas fa-map-marker-alt fa-2x"></i>

@@ -3,6 +3,17 @@
 }
 @media only screen and (max-width: 1000px){
     .test{
-        width:80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        
+}
+.extrainfo{
+    display: none;
+}
+.contactcontainer{
+    height: 100vh;
 }
 }

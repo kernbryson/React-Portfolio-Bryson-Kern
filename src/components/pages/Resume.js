@@ -12,7 +12,7 @@ const styles = {
 };
 export default function Blog() {
   return (
-    <div style={styles.containerStyles}>
+    <div style={styles.containerStyles} class="rescss">
       <h1 class="p-3">Resume</h1>
       <p style={styles.textStyles}>
         Hardworking and dedicated student at Georgia Tech. A critical thinker

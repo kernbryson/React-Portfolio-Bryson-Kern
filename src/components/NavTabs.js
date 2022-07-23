@@ -46,7 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
-          <i class="fa-solid fa-bars"> </i>
+          <i class="fa-solid fa-bars fa-2x"> </i>
         </button>
 
         <ul class="dropdown-menu">
@@ -100,14 +100,15 @@ function NavTabs({ currentPage, handlePageChange }) {
           </li>
         </ul>
       </div>
-      <nav style={styles.sectionStyles}>
+      <nav class="name" style={styles.sectionStyles}>
         Bryson Kern
         <img
           alt="timer"
+          class="headshot"
           style={styles.pictureStyles}
           src={require("./images/bryson headshot.jpg")}
         />
-        <span style={styles.spanStyles}>Full Stack Web Developer </span>
+        <span class="desc" style={styles.spanStyles}>Full Stack Web Developer </span>
       </nav>
 
       <ul className="nav nav-tabs " style={styles.navStyles} >

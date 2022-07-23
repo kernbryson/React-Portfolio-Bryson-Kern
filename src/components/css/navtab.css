@@ -11,6 +11,28 @@
 }
 @media only screen and (max-width: 1700px){
     .drop {
-        display: block;
+        display: block 
+}
+}
+@media only screen and (max-width: 1107px){
+    .headshot {
+        height:16vw
+}
+}
+@media only screen and (max-width: 1107px){
+    .name {
+        font-size: 10vw !important;
+}
+}
+@media only screen and (max-width: 1092px){
+    .name {
+        height:30vw !important
+}
+}
+@media only screen and (max-width: 1107px){
+    .desc {
+        font-size: 4vw !important;
+        margin-left:5vw !important;
+       
 }
 }

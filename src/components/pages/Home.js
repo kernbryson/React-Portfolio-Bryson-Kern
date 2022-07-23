@@ -12,7 +12,7 @@ const styles = {
 };
 export default function Home() {
   return (
-    <div style={styles.containerStyles}>
+    <div class="home" style={styles.containerStyles}>
       <h1 class="p-3">About Me</h1>
       <p style={styles.textStyles}>
         I am currently a full time student at Georgia Tech who is proficient in

@@ -13,7 +13,7 @@ const styles = {
 };
 export default function About() {
   return (
-    <div style={styles.containerStyles}>
+    <div style={styles.containerStyles} class="port">
       <h1 class="p-3">Portfolio</h1>
       <a href="https://peaceful-temple-74699.herokuapp.com/" target="_blank">
         <img
