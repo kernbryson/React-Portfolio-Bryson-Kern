@@ -15,11 +15,7 @@ export default function Home() {
     <div class="home" style={styles.containerStyles}>
       <h1 class="p-3">About Me</h1>
       <p style={styles.textStyles}>
-        I am currently a full time student at Georgia Tech who is proficient in
-        HTML, CSS, javascript, SQL, node, JQuery and bootstrap. My hobbies
-        include, backpacking, camping, and gaming. I currently live in
-        Loganville Georgia. After completing my bootcamp I wish to become a web
-        developer.
+       I'm a full stack web developer that is located in Loganville Georgia. I am proficient in building web applications. Problem solver and creative mindset with a meticulous attention to detail. Movie fanatic, outdoorsman, and family oriented. I am interested in working on both front end or back end; both are unique and interesting in their own way.
       </p>
     </div>
   );
